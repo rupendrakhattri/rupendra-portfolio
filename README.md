@@ -30,7 +30,7 @@ Professional Portfolio Website of Er. Rupendra Khattri
 6. Your website will be published at:
 
 ```
-https://github.com/rupendrakhattri/rupendrakhattri
+https://github.com/rupendrakhattri/rupendra-portfolio
 ```
 
 ## Author
