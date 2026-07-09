@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Construction Technology in Nepal",
+    "category": "Civil Engineering",
+    "date": "2026-07-09",
+    "author": "Er. Rupendra Khattri",
+    "image": "images/blog/blog1.jpg",
+    "summary": "Overview of BIM, AI and digital engineering in Nepal.",
+    "readingTime": "6 min"
+  },
+  {
+    "id": 2,
+    "title": "Site Supervision Checklist",
+    "category": "Construction",
+    "date": "2026-07-08",
+    "author": "Er. Rupendra Khattri",
+    "image": "images/blog/blog2.jpg",
+    "summary": "Essential checklist before slab casting.",
+    "readingTime": "5 min"
+  },
+  {
+    "id": 3,
+    "title": "Publishing Portfolio using GitHub Pages",
+    "category": "Programming",
+    "date": "2026-07-07",
+    "author": "Er. Rupendra Khattri",
+    "image": "images/blog/blog3.jpg",
+    "summary": "Deploy your portfolio for free.",
+    "readingTime": "7 min"
+  }
+]

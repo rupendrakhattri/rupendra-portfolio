@@ -1,0 +1,53 @@
+:root{
+
+/* ===== Colors ===== */
+
+--primary:#2563eb;
+--secondary:#00c2ff;
+--accent:#00ffb3;
+
+--bg:#08111f;
+--bg2:#101a2d;
+
+--card:rgba(255,255,255,.08);
+
+--glass:rgba(255,255,255,.08);
+
+--white:#ffffff;
+
+--text:#d8e2ff;
+
+--gray:#a7b3cf;
+
+--border:rgba(255,255,255,.12);
+
+--shadow:0 20px 40px rgba(0,0,0,.35);
+
+--gradient:linear-gradient(
+135deg,
+#2563eb,
+#00c2ff,
+#00ffb3
+);
+
+/* ===== Font ===== */
+
+--font:'Poppins',sans-serif;
+
+/* ===== Radius ===== */
+
+--radius:18px;
+
+/* ===== Animation ===== */
+
+--transition:.35s ease;
+
+/* ===== Container ===== */
+
+--container:1280px;
+
+/* ===== Navbar ===== */
+
+--nav-height:80px;
+
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Residential Building Design",
+    "category": "Civil Engineering",
+    "software": [
+      "AutoCAD",
+      "ETABS",
+      "SAFE"
+    ],
+    "image": "images/projects/project1.jpg",
+    "description": "Complete structural design and BOQ."
+  },
+  {
+    "title": "Road Design",
+    "category": "Infrastructure",
+    "software": [
+      "Civil 3D",
+      "AutoCAD"
+    ],
+    "image": "images/projects/project2.jpg",
+    "description": "Road alignment and drainage design."
+  },
+  {
+    "title": "Portfolio Website",
+    "category": "Programming",
+    "software": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "images/projects/project3.jpg",
+    "description": "Responsive portfolio website."
+  }
+]

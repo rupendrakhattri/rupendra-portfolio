@@ -1,0 +1,383 @@
+/* ===========================
+   ANIMATIONS
+===========================*/
+
+@keyframes spin{
+
+0%{
+transform:rotate(0deg);
+}
+
+100%{
+transform:rotate(360deg);
+}
+
+}
+
+/* Floating profile */
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-20px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+/* Fade Up */
+
+@keyframes fadeUp{
+
+0%{
+
+opacity:0;
+
+transform:translateY(60px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/* Fade Left */
+
+@keyframes fadeLeft{
+
+0%{
+
+opacity:0;
+
+transform:translateX(-80px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateX(0);
+
+}
+
+}
+
+/* Fade Right */
+
+@keyframes fadeRight{
+
+0%{
+
+opacity:0;
+
+transform:translateX(80px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateX(0);
+
+}
+
+}
+
+/* Zoom */
+
+@keyframes zoom{
+
+0%{
+
+opacity:0;
+
+transform:scale(.8);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+}
+
+/* Glow */
+
+@keyframes glow{
+
+0%{
+
+box-shadow:0 0 0 rgba(0,194,255,.4);
+
+}
+
+50%{
+
+box-shadow:
+0 0 20px rgba(0,194,255,.6),
+0 0 40px rgba(0,194,255,.4);
+
+}
+
+100%{
+
+box-shadow:0 0 0 rgba(0,194,255,.4);
+
+}
+
+}
+
+/* Gradient Animation */
+
+@keyframes gradient{
+
+0%{
+
+background-position:0% 50%;
+
+}
+
+50%{
+
+background-position:100% 50%;
+
+}
+
+100%{
+
+background-position:0% 50%;
+
+}
+
+}
+
+/* Pulse */
+
+@keyframes pulse{
+
+0%{
+
+transform:scale(1);
+
+}
+
+50%{
+
+transform:scale(1.08);
+
+}
+
+100%{
+
+transform:scale(1);
+
+}
+
+}
+
+/* Rotate */
+
+@keyframes rotate{
+
+0%{
+
+transform:rotate(0deg);
+
+}
+
+100%{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+/* Bounce */
+
+@keyframes bounce{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+}
+
+/* Wave */
+
+@keyframes wave{
+
+0%{
+
+transform:rotate(0deg);
+
+}
+
+25%{
+
+transform:rotate(10deg);
+
+}
+
+50%{
+
+transform:rotate(-10deg);
+
+}
+
+75%{
+
+transform:rotate(8deg);
+
+}
+
+100%{
+
+transform:rotate(0deg);
+
+}
+
+}
+
+/* Hero Animation */
+
+.hero-left{
+
+animation:fadeLeft 1s ease;
+
+}
+
+.hero-right{
+
+animation:fadeRight 1.2s ease;
+
+}
+
+.stats{
+
+animation:fadeUp 1.3s ease;
+
+}
+
+.about-preview{
+
+animation:fadeUp 1.4s ease;
+
+}
+
+.services-preview{
+
+animation:fadeUp 1.5s ease;
+
+}
+
+/* Buttons */
+
+.btn{
+
+animation:glow 3s infinite;
+
+}
+
+.btn:hover{
+
+animation:pulse .6s;
+
+}
+
+/* Service Cards */
+
+.service-card{
+
+transition:.4s;
+
+}
+
+.service-card:hover{
+
+transform:
+translateY(-15px)
+scale(1.03);
+
+}
+
+/* Stats */
+
+.card{
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:
+translateY(-12px)
+scale(1.03);
+
+}
+
+/* Icons */
+
+.social a:hover{
+
+animation:bounce .8s;
+
+}
+
+/* Logo */
+
+.logo{
+
+background-size:300% 300%;
+
+animation:gradient 8s infinite;
+
+}
+
+/* Profile Image */
+
+.profile-card{
+
+overflow:hidden;
+
+}
+
+.profile-card img{
+
+transition:1s;
+
+}
+
+.profile-card:hover img{
+
+transform:scale(1.08);
+
+}

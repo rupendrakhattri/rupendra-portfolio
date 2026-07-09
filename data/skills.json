@@ -1,0 +1,43 @@
+{
+  "civilEngineering": [
+    "Structural Design",
+    "Quantity Surveying",
+    "Project Management",
+    "Construction Supervision",
+    "Cost Estimation",
+    "Building Design",
+    "Road Engineering",
+    "Bridge Engineering",
+    "Surveying",
+    "Valuation",
+    "Contract Administration",
+    "Quality Control"
+  ],
+
+  "software": [
+    "AutoCAD",
+    "Civil 3D",
+    "ETABS",
+    "SAFE",
+    "SAP2000",
+    "STAAD.Pro",
+    "Revit",
+    "SketchUp",
+    "Lumion",
+    "Primavera P6",
+    "MS Project",
+    "QGIS",
+    "ArcGIS"
+  ],
+
+  "programming": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Python",
+    "Java",
+    "C++",
+    "Git",
+    "GitHub"
+  ]
+}
