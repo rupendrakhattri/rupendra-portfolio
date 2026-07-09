@@ -30,7 +30,7 @@ Professional Portfolio Website of Er. Rupendra Khattri
 6. Your website will be published at:
 
 ```
-https://YOUR_GITHUB_USERNAME.github.io/repository-name/
+https://github.com/rupendrakhattri/rupendrakhattri
 ```
 
 ## Author
