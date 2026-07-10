@@ -13,9 +13,38 @@ loader.classList.add("hidden");
 
 if(menu && nav){
 
+const setMenuOpen=(open)=>{
+
+nav.classList.toggle("active",open);
+menu.setAttribute("aria-expanded",String(open));
+
+};
+
+menu.setAttribute("role","button");
+menu.setAttribute("tabindex","0");
+menu.setAttribute("aria-label","Toggle navigation menu");
+menu.setAttribute("aria-expanded","false");
+
 menu.addEventListener("click",()=>{
 
-nav.classList.toggle("active");
+setMenuOpen(!nav.classList.contains("active"));
+
+});
+
+menu.addEventListener("keydown",(event)=>{
+
+if(event.key==="Enter" || event.key===" "){
+
+event.preventDefault();
+setMenuOpen(!nav.classList.contains("active"));
+
+}
+
+});
+
+nav.querySelectorAll("a").forEach((link)=>{
+
+link.addEventListener("click",()=>setMenuOpen(false));
 
 });
 

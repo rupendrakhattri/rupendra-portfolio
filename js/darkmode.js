@@ -1,33 +1,24 @@
-const darkBtn = document.querySelector("#theme-toggle");
+(() => {
+  const themeButton = document.querySelector("#theme-toggle");
+  if (!themeButton) return;
 
-let dark = true;
+  const applyTheme = (theme) => {
+    const isLight = theme === "light";
+    document.documentElement.dataset.theme = isLight ? "light" : "dark";
+    themeButton.innerHTML = isLight
+      ? '<i class="fa-solid fa-moon" aria-hidden="true"></i>'
+      : '<i class="fa-solid fa-sun" aria-hidden="true"></i>';
+    themeButton.setAttribute("aria-label", isLight ? "Switch to dark mode" : "Switch to light mode");
+    themeButton.setAttribute("title", themeButton.getAttribute("aria-label"));
+  };
 
-if(darkBtn){
+  const savedTheme = localStorage.getItem("theme");
+  const preferredTheme = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+  applyTheme(savedTheme || preferredTheme);
 
-darkBtn.addEventListener("click",()=>{
-
-dark=!dark;
-
-if(dark){
-
-document.documentElement.style.setProperty("--bg","#08111f");
-document.documentElement.style.setProperty("--bg2","#101a2d");
-document.documentElement.style.setProperty("--text","#d8e2ff");
-
-darkBtn.innerHTML='<i class="fa-solid fa-moon"></i>';
-
-}
-
-else{
-
-document.documentElement.style.setProperty("--bg","#ffffff");
-document.documentElement.style.setProperty("--bg2","#eef3f8");
-document.documentElement.style.setProperty("--text","#222222");
-
-darkBtn.innerHTML='<i class="fa-solid fa-sun"></i>';
-
-}
-
-});
-
-}
+  themeButton.addEventListener("click", () => {
+    const nextTheme = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+    localStorage.setItem("theme", nextTheme);
+    applyTheme(nextTheme);
+  });
+})();

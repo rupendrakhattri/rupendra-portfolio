@@ -52,7 +52,7 @@ font-size:28px;
 
 cursor:pointer;
 
-color:white;
+color:var(--white);
 
 z-index:1001;
 
@@ -70,7 +70,7 @@ width:260px;
 
 height:calc(100vh - 80px);
 
-background:#08111f;
+background:var(--bg);
 
 display:flex;
 
@@ -85,6 +85,8 @@ padding-top:40px;
 gap:25px;
 
 transition:.4s;
+z-index:1000;
+overflow-y:auto;
 
 }
 
@@ -104,7 +106,7 @@ list-style:none;
 
 font-size:18px;
 
-color:white;
+color:var(--text);
 
 text-decoration:none;
 
