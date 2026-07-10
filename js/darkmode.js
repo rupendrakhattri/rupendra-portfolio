@@ -1,4 +1,4 @@
-const darkBtn = document.querySelector(".dark-btn");
+const darkBtn = document.querySelector("#theme-toggle");
 
 let dark = true;
 
