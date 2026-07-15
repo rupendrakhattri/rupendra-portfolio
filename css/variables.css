@@ -15,6 +15,10 @@
 
 --white:#ffffff;
 
+/* Navigation controls need their own token: page text and icon colors can
+   differ from the contrast needed over the fixed navbar. */
+--nav-link:#ffffff;
+
 --text:#d8e2ff;
 
 --gray:#a7b3cf;
@@ -58,6 +62,7 @@
 --card:rgba(8,17,31,.06);
 --glass:rgba(255,255,255,.76);
 --white:#142033;
+--nav-link:#142033;
 --text:#222222;
 --gray:#526176;
 --border:rgba(8,17,31,.16);

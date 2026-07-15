@@ -172,7 +172,7 @@ gap:35px;
 
 text-decoration:none;
 
-color:white;
+color:var(--nav-link);
 
 transition:.3s;
 
@@ -1872,7 +1872,7 @@ list-style:none;
 
 .nav-links li a{
 
-color:var(--white);
+color:var(--nav-link);
 
 text-decoration:none;
 
